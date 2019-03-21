@@ -1,27 +1,32 @@
 import { Link } from "gatsby"
 import * as React from "react"
+import { css } from "styled-components"
 
 const Header: React.FC<{ siteTitle?: string }> = ({ siteTitle = "" }) => (
   <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
+    css={css`
+      background: rebeccapurple;
+      margin-bottom: 1.45rem;
+    `}
   >
     <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+      css={css`
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 1.45rem 1.0875rem;
+      `}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1
+        css={css`
+          margin: 0;
+        `}
+      >
         <Link
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+          css={css`
+            color: white;
+            text-decoration: none;
+          `}
         >
           {siteTitle}
         </Link>
