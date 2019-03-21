@@ -25,8 +25,8 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "dev": "gatsby develop",
+    "fmt": "prettier --write src/**/*.{ts,tsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "typecheck": "tsc --noEmit"
