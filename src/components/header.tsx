@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import * as React from "react"
-import { css } from "styled-components"
+import { css } from "@emotion/core"
 
 const Header: React.FC<{ siteTitle?: string }> = ({ siteTitle = "" }) => (
   <header
