@@ -26,7 +26,8 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
-    "fmt": "prettier --write src/**/*.{ts,tsx}",
+    "lint": "prettier --list-different src/**/*.{ts,tsx}",
+    "lint:fix": "prettier --write src/**/*.{ts,tsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "typecheck": "tsc --noEmit"
