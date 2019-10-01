@@ -8,17 +8,23 @@
 Run server:
 
 ```
-$ yarn dev
+$ npm run dev
+```
+
+Lint:
+
+```
+$ npm run lint
 ```
 
 Format:
 
 ```
-$ yarn fmt
+$ npm run lint:fix
 ```
 
 Check type:
 
 ```
-$ yarn typecheck
+$ npm run test:type
 ```

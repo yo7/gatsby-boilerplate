@@ -30,6 +30,6 @@
     "lint:fix": "prettier --write src/**/*.{ts,tsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "typecheck": "tsc --noEmit"
+    "test:type": "tsc --noEmit"
   }
 }
