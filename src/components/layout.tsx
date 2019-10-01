@@ -10,7 +10,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import { css } from "styled-components"
+import { css } from "@emotion/core"
 
 const Layout: React.FC<{}> = ({ children }) => (
   <StaticQuery

@@ -1,7 +1,7 @@
 # Gatsby Boilerplate
 
 - TypeScript
-- styled-components
+- emotion
 
 # Develop
 
