@@ -3,7 +3,7 @@
     "@emotion/core": "^10.0.22",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.17.11",
-    "gatsby-image": "^2.2.31",
+    "gatsby-image": "^2.2.32",
     "gatsby-plugin-emotion": "^4.1.13",
     "gatsby-plugin-manifest": "^2.2.27",
     "gatsby-plugin-offline": "3.0.18",
